@@ -1,0 +1,135 @@
+
+
+.Container_Contact 
+{
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(150deg,#111,#000);
+}
+
+.SubContainer_Contact
+{
+display:flex;
+justify-content:center;
+align-items:center;
+width:80%;
+height:600px;
+padding:20px;
+}
+
+.SubContainer_Contact .Container_Img
+{
+width:100%;
+height:100%;
+}
+
+.SubContainer_Contact img 
+{
+width:100%;
+height:100%;
+border-radius:8px 0 0 8px;
+}
+
+.SubContainer_Contact form 
+{
+width:100%;
+height:100%;
+background:#fff;
+border-radius:0 8px 8px 0;
+padding:20px;
+display:flex;
+flex-direction:column;
+}
+
+.SubContainer_Contact form section 
+{
+height:100%;
+width:100%;
+display:flex;
+flex-direction:column;
+}
+
+.SubContainer_Contact form section div 
+{
+display:flex;
+flex-direction:column;
+margin:10px 0;
+}
+
+.SubContainer_Contact form section div label 
+{
+font-size:15px;
+font-style:italic;
+}
+
+.SubContainer_Contact  h2 
+{
+font-size:28px;
+font-style:italic;
+}
+
+.SubContainer_Contact form section div input 
+{
+padding:10px;
+text-align:left;
+border:1px solid blue;
+outline:none;
+}
+
+.Button_Contact
+{
+padding:10px; 
+width:100%;
+cursor:pointer;
+border:none;
+background:#000;
+color:#fff;
+}
+
+.Button_Contact:hover 
+{
+color:#000;
+transition:.2s ease-in;
+background:#fff;
+}
+ 
+
+.Unic_Container div
+{
+display:flex !important;
+flex-direction:row !important;
+align-items:center !important;
+}
+
+.Unic_Container label 
+{
+margin:0 10px 0 0;
+}
+
+.Unic_Container input 
+{
+width:12px;
+height:12px;
+}
+
+@media screen and (max-width:1055px)
+{
+
+.Container_Img 
+{
+display:none;
+}
+    
+
+.SubContainer_Contact form
+{
+border-radius:8px;
+}
+
+}
+
+
+ 

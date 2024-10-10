@@ -1,0 +1,123 @@
+
+
+.Container_Image_And_Div 
+{
+width:100%;
+height:100%;
+display:flex;
+}
+
+.Container_Image_And_Div div 
+{
+width:40%;
+background-image:url(../../../public/Background_Site.jpg);
+display:flex;
+justify-content:center;
+flex-direction:column;
+background-position:left center;
+color:#fff;
+margin:100px 0 0 0;
+}
+
+.Container_Image_And_Div div h1,
+.Container_Image_And_Div div h2,
+.Container_Image_And_Div div h3
+{
+margin:12px ;    
+}
+
+.Container_Image_And_Div div h1
+{
+font-size:45px;
+}
+
+.Container_Image_And_Div div h2 
+{
+font-size:35px;
+}
+
+.Container_Image_And_Div div h3 
+{
+font-size:25px
+}
+
+.Container_Image_And_Div img 
+{
+width:60%;
+height:100%;
+margin-top:100px;
+}
+
+.Container_Image_And_Div nav 
+{
+margin:15px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+border-radius:20px;
+background:#fff;
+box-shadow:3px 2px 2px inset #e3cccc;
+width:380px;
+}
+
+.Container_Image_And_Div nav  a 
+{
+text-decoration:none; 
+font-size:30px;
+padding:8px;
+border-radius:50%;
+color:#2c2f41;
+}
+
+.unic_anchor 
+{
+font-size:50px;
+color:#2c2f41;
+}
+ 
+.Container_Image_And_Div h1,
+.Container_Image_And_Div h2,
+.Container_Image_And_Div h3 
+{
+font-size:100%
+}
+
+@media screen and (min-width:996px) and (max-width:1309px)
+{
+.Container_Image_And_Div img {
+height:547px;
+}    
+}
+
+@media screen and (min-width:320px) and (max-width:995px)
+{
+.Container_Image_And_Div img 
+{
+display:none;
+}
+
+.Container_Image_And_Div div 
+{
+width:100%;
+}
+
+.Container_Image_And_Div nav 
+{
+width:40%;
+}
+
+.Container_Image_And_Div nav  i 
+{
+font-size:100%;
+}
+
+}
+
+@media screen and (max-width:530px)
+{
+.Container_Image_And_Div nav 
+{
+width:60%;
+}
+
+}

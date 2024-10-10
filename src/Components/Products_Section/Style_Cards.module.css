@@ -1,0 +1,245 @@
+
+.Container_Cards
+{
+width:100%;
+height:100%;
+display:flex;
+color:#111;
+background:#202733;
+padding:0 15px;
+}
+
+.Container_Cards .SubContainer
+{
+width:70%;
+height:100%;
+background:#fff;
+display:flex;
+flex-direction:column;
+justify-content:center;
+border-radius:8px 0 0 8px;
+margin:25px 0;
+}
+
+.Container_Soon_Cards 
+{
+display:flex;
+flex-wrap:wrap;
+height:100%;
+}
+
+.Container_Soon_Cards .Container_True_Cards
+{
+margin:14px;
+padding:6px;
+text-align:center;
+border-right:1px solid #dfdfdf;
+display:flex;
+flex-direction:column;
+align-items:center;
+height:30%;
+width:30%;
+}
+
+.Container_Soon_Cards div img 
+{
+width:120px;
+height:120px;
+}
+
+.Heading_Solo
+{
+font-size:37px;
+padding:10px;
+font-family:tahoma;
+margin:15px 0;
+font-style:italic;
+border-bottom:1px solid #dfdfdf;
+}
+
+.Container_Soon_Cards div h2,
+.Container_Soon_Cards div p,
+.Container_Soon_Cards div section
+{
+margin:15px 0;
+}
+
+.Container_Soon_Cards div h2 
+{
+font-size:20px;
+}
+
+.Container_Soon_Cards div p 
+{
+font-size:16px;
+font-style:italic;
+}
+
+.Container_Soon_Cards div section 
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:space-around;
+}
+
+.Container_Soon_Cards div section span 
+{
+font-weight:bold;
+margin:5px 0;
+}
+
+.Container_Soon_Cards div section select 
+{
+width:50px;
+border:none;
+padding:5px;
+background:#111;
+border-radius:7px;
+outline:none;
+margin:0 0 12px 0;
+color:#fff;
+}
+
+.Container_Soon_Cards div button 
+{
+border:none;
+padding:7px;
+background:#252735;
+color:#fff;
+cursor:pointer;
+}
+
+.Container_Cards .Container_Register
+{
+background:#fff;
+width:30%;
+margin:25px 0;
+border-radius:0 8px 8px 0;
+display:flex;
+align-items:center;
+box-shadow:2px 1px 2px inset #e5dede;
+}
+
+.Container_Register .SubContainer_Register h2,
+.Container_Register .SubContainer_Register h3,
+.Container_Register .SubContainer_Register span
+{
+margin:12px 0;
+text-align:center;
+}
+
+.Container_Register .SubContainer_Register h2 
+{
+font-size:35px;
+}
+
+.Container_Register .SubContainer_Register h3 
+{
+font-size:22px;
+}
+
+.Container_Register .SubContainer_Register span 
+{
+font-style:italic;
+}
+
+.Container_Register .SubContainer_Register 
+{
+display:flex;
+justify-content:center;
+flex-direction:column;
+padding:0 10px;
+}
+
+.Container_Register .SubContainer_Register div 
+{
+display:flex;
+flex-direction:column;
+}
+
+.SubContainer_Register div label 
+{
+margin:10px 0;
+font-style:italic;
+font-size:19px;
+}
+
+.SubContainer_Register div input 
+{
+padding:10px;
+border:1px solid #03037d;
+outline:none;
+}
+
+.SubContainer_Register button 
+{
+background:linear-gradient(150deg, blue,#03037d);
+padding:10px;
+border:none;
+color:#fff;
+width:100%;
+margin:15px 0 0 0;
+cursor:pointer;
+}
+
+@media screen and (min-width:835px) and (max-width:1239px)
+{
+
+.Container_Soon_Cards .Container_True_Cards
+{
+width:45%;
+height:25%;
+flex:1 1 300px;
+}
+
+.Container_Cards .Container_Register
+{
+width:50%;
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:834px)
+{
+
+.Container_Cards
+{
+flex-direction:column;
+}
+
+.SubContainer 
+{
+width:100% !important;
+border-radius:8px !important;
+box-shadow:none;
+}
+
+.Container_Register 
+{
+width:100% !important; 
+border-radius:8px !important;
+justify-content:center !important;
+}
+
+.Container_Register form 
+{
+padding:10px;
+}
+
+.Container_Soon_Cards 
+{
+width:100%;
+}
+
+.Container_True_Cards 
+{
+flex:1 1 200px;
+}
+
+.Heading_Solo 
+{
+text-align:center;
+}
+
+}
